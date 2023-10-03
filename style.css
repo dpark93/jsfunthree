@@ -1,3 +1,50 @@
-h1 { 
-    color: purple;
+/* body
+   {
+    display: inline-grid; 
+    min-width: 250px;
   }
+
+
+
+.container{
+  justify-content: center; 
+  
+} */
+
+.container{
+  display: grid;
+  place-items: center;
+  border:20px solid pink;
+  width:50%;
+}
+body{
+  display: grid;
+  place-items: center;
+}
+
+
+h1 {   
+    color: green;
+  }
+
+  ul li {
+    display: flex; 
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  } 
+  ul li:hover{
+    background: purple; 
+  } 
+
+  ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+
+  
+
